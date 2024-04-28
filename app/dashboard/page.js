@@ -11,11 +11,10 @@ import { ArrowPathIcon } from "@heroicons/react/24/outline";
 import RemoveBtn from "../components/Removebtn";
 import fetchDataFromApi from "../fetchdata/data";
 // import { useRouter } from "next/router";
-export default function sales() {
+export default function Sales() {
   const session = useSession();
   // const router2 = useRouter()
   const [sales, setsales] = useState([]);
-  const [expense, setexpense] = useState('');
   const [loading, setLoading] = useState(true); // State to track loading status
   const router = useRouter();
 
