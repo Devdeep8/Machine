@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.link{
+  color: #2517a4;
+  text-decoration: underline;
+
+}
+.link::after:visited{
+  color: #5f27b6;
+  text-decoration: underline;
+}
