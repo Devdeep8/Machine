@@ -1,7 +1,7 @@
 'use server'
 const fetchDataFromApi = async () =>{
     try {
-        const response = await fetch("https://machine-six.vercel.app/api/stock" , {cache: 'no-store'});
+        const response = await fetch("https://machine-six.vercel.app/api/stock" );
         const data = await response.json();
         // console.log(data.sales)
        return data.sales
